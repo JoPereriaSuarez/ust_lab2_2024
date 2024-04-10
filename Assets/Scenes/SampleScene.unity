@@ -270,6 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517855227}
   - component: {fileID: 1517855226}
+  - component: {fileID: 1517855229}
   - component: {fileID: 1517855225}
   - component: {fileID: 1517855224}
   - component: {fileID: 1517855228}
@@ -352,6 +353,25 @@ MonoBehaviour:
     id: entry
   roomDoor:
     id: room
+--- !u!114 &1517855229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517855223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9017bf96cb3f4acfb0f27ef95dda5be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  books:
+  - {fileID: 11400000, guid: 32b0e99453dca8dcc8f25a88bb95961d, type: 2}
+  - {fileID: 11400000, guid: 9ef9a9964b2cfb3d2bc2907c5c1db4c3, type: 2}
+  - {fileID: 11400000, guid: b555b4950bca2e18daacf431768295a8, type: 2}
+  bookName: 
+  genre: 0
+  topics: 48
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
